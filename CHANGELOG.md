@@ -1,5 +1,26 @@
 # Changelog
 
+## [v0.12.1](https://github.com/jeromefroe/lru-rs/tree/0.12.1) - 2023-11-21
+
+- Add `get_key_value` method.
+
+## [v0.12.0](https://github.com/jeromefroe/lru-rs/tree/0.12.0) - 2023-10-03
+
+- Add lifetime specifier to `try_get_or_insert_mut`.
+- Add `BuildHasher` trait bound to `Debug` for `LruCache`.
+
+## [v0.11.1](https://github.com/jeromefroe/lru-rs/tree/0.11.1) - 2023-09-05
+
+- Add `try_get_or_insert_mut` method.
+
+## [v0.11.0](https://github.com/jeromefroe/lru-rs/tree/0.11.0) - 2023-07-11
+
+- Update dependency on hashbrown to 0.14 and update MSRV to 1.64.0.
+
+## [v0.10.1](https://github.com/jeromefroe/lru-rs/tree/0.10.1) - 2023-06-29
+
+- Add `try_get_or_insert` method.
+
 ## [v0.10.0](https://github.com/jeromefroe/lru-rs/tree/0.10.0) - 2023-03-04
 
 - Remove `KeyRef` from the public API.
